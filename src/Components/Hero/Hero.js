@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Dropdown = () => {
+const Hero = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Dropdown = () => {
     )
 }
 
-export default Dropdown
+export default Hero
