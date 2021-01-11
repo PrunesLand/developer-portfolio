@@ -8,12 +8,13 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     z-index: 100;
-    position: fixed;
+    position: absolute;
     color: white;
+    margin-top:-100px;
 `
 export const NavbarContainer = styled.div`
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     width: 100%;
     padding: 0 24px;
     
@@ -39,6 +40,7 @@ export const NavMenu = styled.ul`
     font-size: 20px;
     padding-top: 10px;
     
+    
     @media screen and (max-width:768px ){
         display:none;
     }
@@ -49,8 +51,11 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled.div`
-    padding: 0 1rem;
+    text-align:center;
+    margin:0 -15px;
     cursor: pointer;
+    font-size:30px;
+    width:180px;
 `
 
 

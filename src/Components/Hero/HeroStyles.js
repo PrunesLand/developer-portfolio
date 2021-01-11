@@ -11,27 +11,35 @@ export const HeroWrapper = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    
+    flex-direction:row;
+`
+export const HeroTitle = styled.h1`
+    font-size:5vw;
+    text-align:center;
+    margin-top:15px;
+    width:90%;
+
+    @media screen and (min-width:800px){
+        font-size: 40px;
+    }
     
 `
 
 export const HeroImage = styled.img`
-    height:100vh;
-    width: 100vw;  
-    object-fit: cover;
-    z-index: -1;
-    
+    height:60vh;
+    transform:translateY(100px)
     
 
 `
 
 export const HeroText = styled.div`
-    position:absolute;
-    display:flex;
+    
+    
     flex-direction:column;
     justify-content: center;
     align-items: center;
     color: white;
     font-size:40px;
-    text-align:center;
+    text-align:left;
+    width: 40vw;
 `

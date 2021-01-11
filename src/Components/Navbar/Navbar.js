@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
         <Nav>
             <NavbarContainer>
-                <NavLogo>
+                {/* <NavLogo>
                     PrunesLand
-                </NavLogo>
+                </NavLogo> */}
                 <MobileIcon>
                     
                 </MobileIcon>

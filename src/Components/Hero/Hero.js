@@ -1,17 +1,24 @@
 import React from 'react'
-// import heroImage from '../Images/heroImage.jpg'
-import {HeroSection, HeroWrapper, HeroImage, HeroText} from './HeroStyles'
+import Burger from '../Burger'
+import heroImage from '../Images/photo-example.jpg'
+import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle} from './HeroStyles'
 
 const Hero = () => {
     return (
         <div>
             <HeroSection>
                 <HeroWrapper>
-                    <HeroImage />
-                    <HeroText>
+                    <HeroTitle>
+                        <h1>PrunesLand</h1>
+                    </HeroTitle>
+                    <Burger />
+                </HeroWrapper>
+                <HeroWrapper>
+                    {/* <HeroText>
                         <h2>Front-End developer</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nulla magni. Quasi placeat at numquam!</p>
                     </HeroText>
+                    <HeroImage src={heroImage} /> */}
                 </HeroWrapper>
             </HeroSection>
         </div>
