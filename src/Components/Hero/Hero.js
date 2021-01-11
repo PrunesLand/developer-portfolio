@@ -1,24 +1,30 @@
 import React from 'react'
 import Burger from '../Burger'
 import heroImage from '../Images/photo-example.jpg'
-import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle} from './HeroStyles'
+import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle,HeroNavWrapper, HeroWrapperTitle, ContentWrapper} from './HeroStyles'
 
 const Hero = () => {
     return (
         <div>
             <HeroSection>
-                <HeroWrapper>
+                <HeroNavWrapper>
                     <HeroTitle>
                         <h1>PrunesLand</h1>
                     </HeroTitle>
                     <Burger />
-                </HeroWrapper>
+                </HeroNavWrapper>
                 <HeroWrapper>
-                    {/* <HeroText>
-                        <h2>Front-End developer</h2>
+                        <HeroWrapperTitle>
+                            Front-End developer
+                        </HeroWrapperTitle>
+                    <ContentWrapper>
+
+                    <HeroImage src={heroImage} />
+                    <HeroText>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nulla magni. Quasi placeat at numquam!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in eveniet animi? Ad dolorum maxime doloribus reprehenderit, eligendi sint porro adipisci quis et voluptatibus, explicabo, ipsum hic. Reprehenderit, aliquid assumenda!</p>
                     </HeroText>
-                    <HeroImage src={heroImage} /> */}
+                    </ContentWrapper>
                 </HeroWrapper>
             </HeroSection>
         </div>
