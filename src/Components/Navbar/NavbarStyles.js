@@ -41,7 +41,7 @@ export const NavMenu = styled.ul`
     padding-top: 10px;
     
     
-    @media screen and (max-width:768px ){
+    @media screen and (max-width:720px ){
         display:none;
     }
 `

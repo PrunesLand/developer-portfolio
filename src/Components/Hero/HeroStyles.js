@@ -12,17 +12,18 @@ export const HeroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    
+    transform:translateY(-10px);
     
 `
 export const HeroTitle = styled.h1`
     font-size:5vw;
     text-align:center;
-    margin-top:15px;
+    margin-top:10px;
     width:90%;
+    
 
-    @media screen and (min-width:600px){
-        font-size: 30px;
+    @media screen and (min-width:500px){
+        font-size: 25px;
     }
     
 `
@@ -38,14 +39,14 @@ export const HeroNavWrapper = styled.div`
 export const HeroImage = styled.img`
     display:flex;
     height:400px;
-    
-    
-    
+    z-index:2;
+    border-radius:15px;
+    width:280px;
 
-    @media screen and (min-width:600px){
+    @media screen and (min-width:720px){
         
-        max-height:300px;
-        height:80vw;
+        height:430px;
+        
     }
 
 `
@@ -53,8 +54,9 @@ export const HeroImage = styled.img`
 export const ContentWrapper = styled.div`
     display:flex;
     flex-direction: column;
-    padding:20px;
-    @media screen and (min-width:580px){
+    
+
+    @media screen and (min-width:720px){
         flex-direction:row;
         
     }
@@ -62,27 +64,50 @@ export const ContentWrapper = styled.div`
 
 export const HeroText = styled.div`
     
-    display:flex;
-    flex-direction:column;
+    display:block;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-size:3.5vw;
+    color: black;
+    font-size:19px;
     text-align:left;
-    width: 50vw;
-    max-height:150px;
-    
-    p{
-        width:350px;
-        padding-left:20px;    
-         
+    width:380px;
 
+    p{
+        width:300px;
+        padding:5px;
     }
 
+    @media screen and (min-width:720px){
+        padding: 15px;
+    }
     
+`
+export const HeroTextWrapper = styled.div`
+    border-radius:15px;
+    padding:15px 0 10px 5px;
+    background-color:green;
+    transform:translateY(-20px);
+    z-index:1;
+    height:285px;
+    
+    @media screen and (min-width:720px){
+        height:400px;
+        transform:translate(-5px,75px);
+    }
 `
 
 export const HeroWrapperTitle = styled.div`
     font-size:40px;
-    padding:15px;
+    background-color:green;
+    border-radius: 10px;
+    height:50px;
+    width:350px;
+    text-align:center;
+    transform:translate(5%, 40px);
+    z-index:3;
+
+    @media screen and (min-width:720px){
+        transform:translate(-20%, 40px);
+        width:400px;
+    }
 `
