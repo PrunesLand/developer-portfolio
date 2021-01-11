@@ -12,7 +12,7 @@ export const HeroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    transform:translateY(-10px);
+    transform:translateY(-25px);
     
 `
 export const HeroTitle = styled.h1`
@@ -92,7 +92,7 @@ export const HeroTextWrapper = styled.div`
     
     @media screen and (min-width:720px){
         height:400px;
-        transform:translate(-5px,75px);
+        transform:translate(10px,75px);
     }
 `
 

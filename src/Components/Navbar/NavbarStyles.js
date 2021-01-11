@@ -1,22 +1,22 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-    height: 60px;
+    height: 80px;
     width: 100%;
     background: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 100;
-    position: absolute;
+    position: relative;
     color: white;
-    margin-top:-100px;
+    margin-top:-80px;
 `
 export const NavbarContainer = styled.div`
     display:flex;
     justify-content:center;
-    width: 100%;
-    padding: 0 24px;
+    
+    
     
 `
 
@@ -32,13 +32,14 @@ export const NavLogo = styled.div`
     
 `
 
-export const MobileIcon = styled.div``
+
 
 export const NavMenu = styled.ul`
     display:flex;
     list-style: none;
     font-size: 20px;
-    padding-top: 10px;
+    
+    
     
     
     @media screen and (max-width:720px ){
@@ -47,15 +48,25 @@ export const NavMenu = styled.ul`
 `
 
 export const NavItem = styled.li`
+        
+  
     
+    
+    &:hover{
+        border: 3px solid blue;
+        margin:-5px;
+    }
 `
 
 export const NavLinks = styled.div`
     text-align:center;
-    margin:0 -15px;
+    
     cursor: pointer;
     font-size:30px;
     width:180px;
+    
+    
+    
 `
 
 
