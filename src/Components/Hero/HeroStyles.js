@@ -84,10 +84,10 @@ export const HeroText = styled.div`
 `
 export const HeroTextWrapper = styled.div`
     border-radius:15px;
-    padding:15px 0 10px 5px;
+    padding:10px 0 10px 5px;
     background-color:green;
     transform:translateY(-20px);
-    z-index:1;
+    z-index:3;
     height:285px;
     
     @media screen and (min-width:720px){
