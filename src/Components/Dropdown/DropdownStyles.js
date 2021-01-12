@@ -1,7 +1,16 @@
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
 
-export const DropdownContainer = styled.div``
+export const DropdownContainer = styled.div`
+    display:none;
+
+    @media screen and (min-width:550){
+    position:fixed;
+    height: 100vh;
+    background-color:orange;
+        
+    }
+`
 
 export const Icon = styled.div``
 
