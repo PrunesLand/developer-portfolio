@@ -1,10 +1,10 @@
 import React from 'react'
 import {DropdownContainer, Icon, CloseIcon, DropdownWrapper, DropdownMenu, DropdownItem, DropdownLink} from './DropdownStyles'
 
-const Dropdown = () => {
+const Dropdown = ({isOpen, toggle}) => {
     return (
-        <DropdownContainer>
-            <Icon>
+        <DropdownContainer isOpen={isOpen} onClick={toggle}>
+            <Icon onClick={toggle}>
                 <CloseIcon />
             </Icon>
             <DropdownWrapper>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Burger from '../Burger'
+
 import heroImage from '../Images/photo-example.jpg'
 import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle,HeroNavWrapper, HeroWrapperTitle, ContentWrapper, HeroTextWrapper} from './HeroStyles'
 
@@ -9,9 +9,9 @@ const Hero = () => {
             <HeroSection>
                 <HeroNavWrapper>
                     <HeroTitle>
-                        <h1>PrunesLand</h1>
+                        PrunesLand
                     </HeroTitle>
-                    <Burger />
+                    
                 </HeroNavWrapper>
                 <HeroWrapper>
                         <HeroWrapperTitle>

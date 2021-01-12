@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { BiMenuAltRight } from "react-icons/bi";
 
-const Burger = () => {
+const Burger = ({ toggle}) => {
 
     const MobileIcon = styled.div`
     display:none;
@@ -16,13 +16,14 @@ const Burger = () => {
         font-size: 3rem;
         cursor: pointer;
         color: #fff;
+        z-index: 3;
         
     }
     `
 
     return (
         <>
-            <MobileIcon>
+            <MobileIcon  toggle={toggle}>
                 <BiMenuAltRight />
             </MobileIcon>     
         </>
