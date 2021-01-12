@@ -3,12 +3,12 @@ import {DropdownContainer, Icon, CloseIcon, DropdownWrapper, DropdownMenu, Dropd
 
 const Dropdown = ({isOpen, toggle}) => {
     return (
-        <DropdownContainer isOpen={isOpen} onClick={toggle}>
-            <Icon onClick={toggle}>
+        <DropdownContainer isOpen={isOpen}>
+            <Icon onClick={toggle} >
                 <CloseIcon />
             </Icon>
             <DropdownWrapper>
-                <DropdownMenu>
+                <DropdownMenu >
                     <DropdownItem>
                         <DropdownLink to='services'>Services</DropdownLink>
                     </DropdownItem>

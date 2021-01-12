@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Burger from '../Burger'
+import Burger from '../Burger/Burger'
 import Dropdown from '../Dropdown/Dropdown'
 import Hero from '../Hero/Hero'
 import Info from '../Info/Info'
@@ -12,7 +12,8 @@ const Home = () => {
     const toggle = () => {
         setIsOpen(!isOpen);
     }
-
+    
+    console.log(isOpen);
     return (
         <>
         <Dropdown isOpen={isOpen} toggle={toggle}/>

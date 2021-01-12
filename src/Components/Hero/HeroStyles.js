@@ -15,15 +15,15 @@ export const HeroWrapper = styled.div`
     transform:translateY(-25px);
     
 `
-export const HeroTitle = styled.h1`
+export const HeroTitle = styled.div`
     font-size:5vw;
     text-align:center;
     margin-top:10px;
     width:90%;
     
 
-    @media screen and (min-width:500px){
-        font-size: 25px;
+    @media screen and (min-width:720px){
+        font-size: 6vh;
     }
     
 `

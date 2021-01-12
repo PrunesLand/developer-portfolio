@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom'
 import {BiXCircle} from 'react-icons/bi'
 
 
-export const DropdownContainer = styled.div`
+export const DropdownContainer = styled.aside`
     position:fixed;
-    display: block;
+    
     height: 100vh;
     width: 100%;
-    max-height:1100px;
+    
     background-color:orange;
     z-index:999;
     top:0;
@@ -22,13 +22,13 @@ export const Icon = styled.div`
     left:85%;
     top:2%;
     position:absolute;
-    
+    cursor:pointer;
 `
 
 export const CloseIcon = styled(BiXCircle)`
     font-size:3rem;
     color: blue;
-    cursor:pointer;
+    
 `
 
 export const DropdownWrapper = styled.div`

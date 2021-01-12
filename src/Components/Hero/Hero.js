@@ -9,7 +9,7 @@ const Hero = () => {
             <HeroSection>
                 <HeroNavWrapper>
                     <HeroTitle>
-                        PrunesLand
+                        <h1>PrunesLand</h1>
                     </HeroTitle>
                     
                 </HeroNavWrapper>
