@@ -12,7 +12,7 @@ export const HeroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    padding-top:8vw;
+    padding-top:4vw;
     
 `
 export const HeroTitle = styled.div`
