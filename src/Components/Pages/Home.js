@@ -18,7 +18,7 @@ const Home = () => {
         <>
         <Dropdown isOpen={isOpen} toggle={toggle}/>
         <NavbarFix toggle={toggle}/>
-        <Hero toggle={toggle}/>
+        <Hero />
         <NavbarHero />
         <Info />    
         </>

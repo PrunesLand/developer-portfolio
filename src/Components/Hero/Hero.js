@@ -1,6 +1,6 @@
 import React from 'react'
 import heroImage from '../Images/photo-example.jpg'
-import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle,HeroNavWrapper, HeroWrapperTitle, ContentWrapper, HeroTextWrapper} from './HeroStyles'
+import {HeroSection, HeroWrapper, HeroImage, HeroText, HeroWrapperTitle, ContentWrapper, HeroTextWrapper} from './HeroStyles'
 
 const Hero = () => {
     return (

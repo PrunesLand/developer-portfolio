@@ -8,7 +8,7 @@ const NavbaFix = ({toggle}) => {
 
     const changeBackground = () => {
         
-        if(window.scrollY >= 550){
+        if(window.scrollY >= 700){
             setColor(true)
         }else{
             setColor(false)
@@ -18,10 +18,7 @@ const NavbaFix = ({toggle}) => {
     }
     window.addEventListener('scroll', changeBackground);
 
-    const tester = () => {
-        console.log(window.scrollY);
-
-    }
+    
     
     
     return (
