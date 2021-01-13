@@ -5,8 +5,8 @@ const SkillSection = () => {
     return (
         <GridSection>
             <GridContainer>
+                    <h1>Skill Section</h1>
                 <GridButtonWrapper>
-
                 </GridButtonWrapper>
                 <GridHeroWrapper>
                     <GridHeroImg />

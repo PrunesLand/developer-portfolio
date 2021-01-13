@@ -5,6 +5,9 @@ import Info from '../Info/Info'
 import NavbarHero from '../NavbarHero/NavbarHero'
 import NavbarFix from '../NavbarFix/NavbaFix'
 import SkillSection from '../SkillSection/SkillSection'
+import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
+import Projects from '../Projects/Projects'
 
 const Home = () => {
 
@@ -23,6 +26,9 @@ const Home = () => {
         <NavbarHero />
         <Info /> 
         <SkillSection />
+        <Projects />
+        <Contact />
+        <Footer />
         </>
     )
 }
