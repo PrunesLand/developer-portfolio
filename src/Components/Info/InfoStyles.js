@@ -14,6 +14,10 @@ export const InfoSection = styled.section`
 
 export const InfoItemWrapper = styled.div`
     padding:15px;
+
+    @media screen and (min-width:720px){
+        padding-top:60px;
+    }
 `
 
 export const InfoWrapper = styled.div`
@@ -29,7 +33,7 @@ export const InfoWrapper = styled.div`
 export const InfoHeading = styled.div`
     width:100%;
     text-align:center;
-    padding:20px 0 5px 0;;
+    padding:40px 0 5px 0;;
 `
 
 export const InfoItem = styled.div`

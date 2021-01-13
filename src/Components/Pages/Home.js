@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import Info from '../Info/Info'
 import NavbarHero from '../NavbarHero/NavbarHero'
 import NavbarFix from '../NavbarFix/NavbaFix'
+import SkillSection from '../SkillSection/SkillSection'
 
 const Home = () => {
 
@@ -20,7 +21,8 @@ const Home = () => {
         <NavbarFix toggle={toggle}/>
         <Hero />
         <NavbarHero />
-        <Info />    
+        <Info /> 
+        <SkillSection />
         </>
     )
 }
