@@ -1,11 +1,32 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {NavWrapper,NavTitle} from './NavbarFixStyles'
 import Burger from '../Burger/Burger'
 
 const NavbaFix = ({toggle}) => {
+
+    const [navbarColor, setColor] = useState(false);
+
+    const changeBackground = () => {
+        
+        if(window.scrollY >= 550){
+            setColor(true)
+        }else{
+            setColor(false)
+        }
+
+        console.log(window.scrollY);
+    }
+    window.addEventListener('scroll', changeBackground);
+
+    const tester = () => {
+        console.log(window.scrollY);
+
+    }
+    
+    
     return (
         <>
-            <NavWrapper>
+            <NavWrapper navbarColor={navbarColor}>
                     <NavTitle>
                         <h1>PrunesLand</h1>
                     </NavTitle>

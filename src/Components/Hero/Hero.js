@@ -1,18 +1,12 @@
 import React from 'react'
-import Burger from '../Burger/Burger'
 import heroImage from '../Images/photo-example.jpg'
 import {HeroSection, HeroWrapper, HeroImage, HeroText,HeroTitle,HeroNavWrapper, HeroWrapperTitle, ContentWrapper, HeroTextWrapper} from './HeroStyles'
 
-const Hero = ({toggle}) => {
+const Hero = () => {
     return (
         <div>
             <HeroSection>
-                {/* <HeroNavWrapper>
-                    <HeroTitle>
-                        <h1>PrunesLand</h1>
-                    </HeroTitle>
-                    <Burger  toggle={toggle}/>
-                </HeroNavWrapper> */}
+                
                 <HeroWrapper>
                         <HeroWrapperTitle>
                             Front-End developer
