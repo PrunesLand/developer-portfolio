@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import Burger from '../Burger/Burger'
 import Dropdown from '../Dropdown/Dropdown'
 import Hero from '../Hero/Hero'
 import Info from '../Info/Info'
-import Navbar from '../Navbar/Navbar'
+import NavbarHero from '../NavbarHero/NavbarHero'
+import NavbarFix from '../NavbarFix/NavbaFix'
 
 const Home = () => {
 
@@ -17,9 +17,9 @@ const Home = () => {
     return (
         <>
         <Dropdown isOpen={isOpen} toggle={toggle}/>
-        <Burger  toggle={toggle}/>
-        <Hero />
-        <Navbar />
+        <NavbarFix toggle={toggle}/>
+        <Hero toggle={toggle}/>
+        <NavbarHero />
         <Info />    
         </>
     )

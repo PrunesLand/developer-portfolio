@@ -12,28 +12,34 @@ export const HeroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    transform:translateY(-25px);
+    padding-top:8vw;
     
 `
 export const HeroTitle = styled.div`
     font-size:5vw;
     text-align:center;
-    margin-top:10px;
-    width:90%;
+    padding:5px 0 0 25px;
+    width:100%;
+    
     
 
     @media screen and (min-width:720px){
         font-size: 6vh;
     }
+
+    @media screen and (max-height:300px){
+        display:none;
+    }
     
 `
 
 export const HeroNavWrapper = styled.div`
+    position:fixed;
     display:flex;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
-    
+    width:100%;
+    padding-top:5px;
+    z-index:99;
+    background-color:#dda77b;
 `
 
 export const HeroImage = styled.img`

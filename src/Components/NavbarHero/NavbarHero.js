@@ -1,7 +1,7 @@
 import React from 'react'
-import {Nav, NavbarContainer, NavMenu, NavItem, NavLinks} from '../Navbar/NavbarStyles'
+import {Nav, NavbarContainer, NavMenu, NavItem, NavLinks} from '../NavbarHero/NavbarHeroStyles'
 
-const Navbar = () => {
+const NavbarHero = () => {
     return (
         <Nav>
             <NavbarContainer>
@@ -24,4 +24,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default NavbarHero
