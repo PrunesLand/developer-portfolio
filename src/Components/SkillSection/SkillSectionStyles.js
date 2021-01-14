@@ -55,22 +55,36 @@ export const GridItemContainer = styled.div`
 // Grid buttons
 
 export const Logo1 = styled(SiHtml5)`
-    
+    cursor:pointer;
 `
 
-export const Logo2 = styled(SiCsswizardry)``
+export const Logo2 = styled(SiCsswizardry)`
+    cursor:pointer;
+`
 
-export const Logo3 = styled(SiJavascript)``
+export const Logo3 = styled(SiJavascript)`
+    cursor:pointer;
+`
 
-export const Logo4 = styled(SiReact)``
+export const Logo4 = styled(SiReact)`
+    cursor:pointer;
+`
 
-export const Logo5 = styled(SiMysql)``
+export const Logo5 = styled(SiMysql)`
+    cursor:pointer;
+`
 
-export const Logo6 = styled(SiJava)``
+export const Logo6 = styled(SiJava)`
+    cursor:pointer;
+`
 
-export const Logo7 = styled(GrDomain)``
+export const Logo7 = styled(GrDomain)`
+    cursor:pointer;
+`
 
-export const Logo8 = styled(SiGimp)``
+export const Logo8 = styled(SiGimp)`
+    cursor:pointer;
+`
 
 
 
@@ -81,6 +95,7 @@ export const GridHeroWrapper = styled.div`
     height:60vh;
     width:60vh;
 `
+export const GridTextParent = styled.div``
 
 export const GridHeroImg = styled.img`
     background-image:${({sampleImg}) => (sampleImg)};

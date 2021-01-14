@@ -14,7 +14,7 @@ const NavbaFix = ({toggle}) => {
             setColor(false)
         }
 
-        console.log(window.scrollY);
+        
     }
     window.addEventListener('scroll', changeBackground);
 
