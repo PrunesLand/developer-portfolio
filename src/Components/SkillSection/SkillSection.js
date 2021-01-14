@@ -1,35 +1,49 @@
 import React from 'react'
-import { SkillData } from './SkillData';
-import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItem, GridMainWrapper, GridTextContent, GridTextTitle, GridIcon, Html} from "./SkillSectionStyles";
+import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper, GridTextContent, GridTextTitle, Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle} from "./SkillSectionStyles";
 
-import {SiHtml5,SiCsswizardry,SiJavascript,SiReact,SiMysql,SiJava,SiGimp} from 'react-icons/si'
+
 
 const SkillSection = () => {
     return (
         <GridSection>
             <GridContainer>
+                <GridHeader>
+                    <GridHeadTitle>
+                        Here are what I'm experienced with:
+                    </GridHeadTitle>
+                </GridHeader>
                     
                 <GridMainWrapper>
+                
 
                 <GridButtonWrapper >
-            
-                        <GridItem >
-                            <Html />
-                        </GridItem>
+
+                        <GridItemContainer >
+
+                           <Logo1 />
+                           <Logo2 />
+                           <Logo3 />
+                           <Logo4 />
+                           <Logo5 />
+                           <Logo6 />
+                           <Logo7 />
+                           <Logo8 />
+                        </GridItemContainer>
                       
-                    </GridButtonWrapper>
-{/*             
+                </GridButtonWrapper>
+                
+            
                         <GridHeroWrapper>
-                            <GridHeroImg src={item.image} alt={item.alt}/>
+                            <GridHeroImg  />
                                 <GridText>
                                     <GridTextTitle>
-                                        {item.title}
+                                        
                                     </GridTextTitle>
                                     <GridTextContent>
-                                        {item.text}
+                                        
                                     </GridTextContent>
                                 </GridText>
-                        </GridHeroWrapper> */}
+                        </GridHeroWrapper>
                 </GridMainWrapper>
             </GridContainer>
         </GridSection>

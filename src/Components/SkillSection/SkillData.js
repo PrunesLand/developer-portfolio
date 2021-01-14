@@ -1,59 +1,50 @@
-import {SiHtml5,SiCsswizardry,SiJavascript,SiReact,SiMysql,SiJava,SiGimp} from 'react-icons/si'
-import {GrDomain} from 'react-icons/gr'
-
 
 export const SkillData = [
+    
     {
-        icon: SiHtml5,
         image: null,
         alt: 'illustration here',
         title: 'HTML',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiCsswizardry,
+        
         image: null,
         alt: 'illustration here',
         title: 'CSS',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiJavascript,
         image: null,
         alt: 'illustration here',
         title: 'JavaScript',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiReact,
         image: null,
         alt: 'illustration here',
         title: 'React Framework',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiMysql,
         image: null,
         alt: 'illustration here',
         title: 'SQL',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiJava,
         image: null,
         alt: 'illustration here',
         title: 'Java',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: GrDomain,
-        image: null,
+          image: null,
         alt: 'illustration here',
         title: 'Website deployment',
         text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
     },
     {
-        icon: SiGimp,
         image: null,
         alt: 'illustration here',
         title: 'Gimp',
