@@ -7,7 +7,7 @@ import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHer
 const SkillSection = () => {
 
     const [val, setVal] = useState(0);
-    
+    const [test, setDisplay] = useState(false)
     
     
 
@@ -28,14 +28,14 @@ const SkillSection = () => {
 
                         <GridItemContainer >
 
-                           <Logo1 onClick={() => setVal(0)}/>
-                           <Logo2 onClick={() => setVal(1)}/>
-                           <Logo3 onClick={() => setVal(2)}/>
-                           <Logo4 onClick={() => setVal(3)}/>
-                           <Logo5 onClick={() => setVal(4)}/>
-                           <Logo6 onClick={() => setVal(5)}/>
-                           <Logo7 onClick={() => setVal(6)}/>
-                           <Logo8 onClick={() => setVal(7)}/>
+                           <Logo1  onClick={() => setVal(0) && setDisplay(true)}/>
+                           <Logo2  onClick={() => setVal(1) && setDisplay(true)}/>
+                           <Logo3  onClick={() => setVal(2)}/>
+                           <Logo4  onClick={() => setVal(3)}/>
+                           <Logo5  onClick={() => setVal(4)}/>
+                           <Logo6  onClick={() => setVal(5)}/>
+                           <Logo7  onClick={() => setVal(6)}/>
+                           <Logo8  onClick={() => setVal(7)}/>
                         </GridItemContainer>
                       
                 </GridButtonWrapper>
@@ -45,7 +45,7 @@ const SkillSection = () => {
                             return(
                         <GridHeroWrapper key={index}>
                             {index === val && (
-                                <GridTextParent>
+                                <GridTextParent test={test}>
 
                                     <GridHeroImg  alt={item.alt} />
 

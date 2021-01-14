@@ -17,7 +17,7 @@ const Info = () => {
 
                 <InfoWrapper>
                     {InfoData.map((item, index) => (
-                    <InfoItemWrapper>
+                    <InfoItemWrapper key={index}>
 
                     <InfoItem>
                         <InfoTitle>

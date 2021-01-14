@@ -42,7 +42,7 @@ export const GridButtonWrapper = styled.div`
 
 `
 
-export const GridItemContainer = styled.div`
+export const GridItemContainer = styled.ul`
     display:inline-grid;
     grid-template-columns: auto auto auto;
     font-size:3.5rem;
@@ -52,6 +52,7 @@ export const GridItemContainer = styled.div`
     border-radius:15px;
     
 `
+
 // Grid buttons
 
 export const Logo1 = styled(SiHtml5)`
@@ -95,10 +96,14 @@ export const GridHeroWrapper = styled.div`
     height:60vh;
     width:60vh;
 `
-export const GridTextParent = styled.div``
+export const GridTextParent = styled.div`
+    
+    display:${({test}) => (test? 'block' : 'none')};
+    
+`
 
 export const GridHeroImg = styled.img`
-    background-image:${({sampleImg}) => (sampleImg)};
+    
 `
 
 export const GridText = styled.div``
