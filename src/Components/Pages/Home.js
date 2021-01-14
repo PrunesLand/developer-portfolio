@@ -17,7 +17,7 @@ const Home = () => {
         setIsOpen(!isOpen);
     }
     
-    console.log(isOpen);
+    
     return (
         <>
         <Dropdown isOpen={isOpen} toggle={toggle}/>

@@ -1,19 +1,36 @@
 import React from 'react'
-import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText } from "./SkillSectionStyles";
+import { SkillData } from './SkillData';
+import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItem, GridMainWrapper, GridTextContent, GridTextTitle, GridIcon, Html} from "./SkillSectionStyles";
+
+import {SiHtml5,SiCsswizardry,SiJavascript,SiReact,SiMysql,SiJava,SiGimp} from 'react-icons/si'
 
 const SkillSection = () => {
     return (
         <GridSection>
             <GridContainer>
-                    <h1>Skill Section</h1>
-                <GridButtonWrapper>
-                </GridButtonWrapper>
-                <GridHeroWrapper>
-                    <GridHeroImg />
-                    <GridText>
+                    
+                <GridMainWrapper>
 
-                    </GridText>
-                </GridHeroWrapper>
+                <GridButtonWrapper >
+            
+                        <GridItem >
+                            <Html />
+                        </GridItem>
+                      
+                    </GridButtonWrapper>
+{/*             
+                        <GridHeroWrapper>
+                            <GridHeroImg src={item.image} alt={item.alt}/>
+                                <GridText>
+                                    <GridTextTitle>
+                                        {item.title}
+                                    </GridTextTitle>
+                                    <GridTextContent>
+                                        {item.text}
+                                    </GridTextContent>
+                                </GridText>
+                        </GridHeroWrapper> */}
+                </GridMainWrapper>
             </GridContainer>
         </GridSection>
     )

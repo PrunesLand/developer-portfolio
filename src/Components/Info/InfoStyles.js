@@ -2,21 +2,36 @@ import styled from 'styled-components'
 
 export const InfoSection = styled.section`
     overflow:hidden;
-    height: 150vh;
+    height: 170vw;
     background-color:grey;
+    min-height:1130px;
+    max-height:1130px;
 
 
-    @media screen and (min-width:720px){
-        height:91vh;
+    @media screen and (min-width:890px){
         
+        min-height:800px;
+        max-height:800px;
     }
+
+    @media screen and (min-width:1315px){
+        
+        min-height:90vh;
+        max-height:400px;
+    }
+
+
+
+    
+
+    
 `
 
 export const InfoItemWrapper = styled.div`
-    padding:15px;
+    padding:10px;
 
     @media screen and (min-width:720px){
-        padding-top:60px;
+        padding-top:20px;
     }
 `
 
