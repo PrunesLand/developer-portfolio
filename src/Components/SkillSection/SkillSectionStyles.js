@@ -97,8 +97,8 @@ export const GridHeroWrapper = styled.div`
     width:60vh;
 `
 export const GridTextParent = styled.div`
-    
-    display:${({test}) => (test? 'block' : 'none')};
+    position:absolute;
+   
     
 `
 
@@ -106,7 +106,10 @@ export const GridHeroImg = styled.img`
     
 `
 
-export const GridText = styled.div``
+export const GridText = styled.div`
+    position:inherit;
+    font-size:20px;
+`
 
 export const GridTextTitle = styled.div``
 
