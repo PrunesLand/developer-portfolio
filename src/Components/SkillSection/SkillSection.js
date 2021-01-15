@@ -39,8 +39,17 @@ const SkillSection = () => {
                         </GridItemContainer>
                       
                 </GridButtonWrapper>
-                
-                        {SkillData.map((item, index) => {
+                {SkillData.find((item, index) => {
+                    <GridHeroWrapper key={index}>
+                    return(
+
+                    <GridTextParent>
+                        
+                    </GridTextParent>
+                    )
+                </GridHeroWrapper>
+                })}
+                        {/* {SkillData.map((item, index) => {
                             return(
                         <GridHeroWrapper key={index}>
                             {index === val && (
@@ -65,7 +74,7 @@ const SkillSection = () => {
 
                         </GridHeroWrapper>
                             );
-                        })}
+                        })} */}
                 </GridMainWrapper>
             </GridContainer>
         </GridSection>
