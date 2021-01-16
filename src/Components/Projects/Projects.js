@@ -1,11 +1,28 @@
 import React from 'react'
-import {ProjectsSection, ProjectsWrapper} from './ProjectsStyles'
+import { ProjectData } from './ProjectData'
+import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList, ListWrapper, ListItem} from './ProjectsStyles'
 
 const Projects = () => {
     return (
         <ProjectsSection>
             <ProjectsWrapper>
-                <h1>Projects Section</h1>
+                <ProjectsHeader>
+                    Past Projects
+                </ProjectsHeader>
+                <ProjectsList>
+                    {ProjectData.map(item => {
+                        return(
+
+                    <ListWrapper>
+                        <ListItem>
+                            {item.name}
+                            
+                        </ListItem>
+                    </ListWrapper>
+                        )
+
+                    })}
+                </ProjectsList>
             </ProjectsWrapper>
         </ProjectsSection>
     )

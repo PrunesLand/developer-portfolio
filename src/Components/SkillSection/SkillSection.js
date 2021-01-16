@@ -7,8 +7,23 @@ import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHer
 const SkillSection = () => {
 
     const [val, setVal] = useState(0);
+    const [test, setDisplay] = useState(false)
     
-    
+    // const showElement = () => {
+
+    //     return(
+            
+    //     <GridTextParent>
+
+    //         <GridHeroImg />
+
+    //         <GridText>
+                    
+    //         </GridText>
+
+    //     </GridTextParent>
+    //     )
+    // }
     
 
 
@@ -28,8 +43,8 @@ const SkillSection = () => {
 
                         <GridItemContainer >
 
-                           <Logo1  onClick={() => setVal(0)}/>
-                           <Logo2  onClick={() => setVal(1)}/>
+                           <Logo1  onClick={() => setVal(0) && setDisplay(true)}/>
+                           <Logo2  onClick={() => setVal(1) && setDisplay(true)}/>
                            <Logo3  onClick={() => setVal(2)}/>
                            <Logo4  onClick={() => setVal(3)}/>
                            <Logo5  onClick={() => setVal(4)}/>
@@ -39,21 +54,23 @@ const SkillSection = () => {
                         </GridItemContainer>
                       
                 </GridButtonWrapper>
-                {SkillData.find((item, index) => {
-                    <GridHeroWrapper key={index}>
-                    return(
+                
+                
+                {/* <GridHeroWrapper>
 
                     <GridTextParent>
-                        
+                        <GridHeroImg />
+                        <GridText>
+                            
+                        </GridText>
                     </GridTextParent>
-                    )
-                </GridHeroWrapper>
-                })}
-                        {/* {SkillData.map((item, index) => {
+
+                </GridHeroWrapper> */}
+                        {SkillData.map((item, index) => {
                             return(
                         <GridHeroWrapper key={index}>
                             {index === val && (
-                                <GridTextParent >
+                                <GridTextParent test={test}>
 
                                     <GridHeroImg  alt={item.alt} />
 
@@ -74,7 +91,7 @@ const SkillSection = () => {
 
                         </GridHeroWrapper>
                             );
-                        })} */}
+                        })}
                 </GridMainWrapper>
             </GridContainer>
         </GridSection>
