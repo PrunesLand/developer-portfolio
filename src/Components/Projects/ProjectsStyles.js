@@ -31,17 +31,18 @@ export const ProjectsList = styled.div`
 
 export const ListWrapper = styled.ul`
     
-    background-color:green;
+    
     justify-content:space-around;
-    padding:10px;
+    padding:40px;
     height:10vh;
     width:30vh;
     
 `
 
 export const ListItem = styled.li`
-    
+    background-color:green;
     color:white;
     text-align:center;
+    list-style:none;
     
 `
