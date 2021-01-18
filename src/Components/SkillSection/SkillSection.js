@@ -1,7 +1,6 @@
-import { render } from '@testing-library/react';
 import React, {useState} from 'react'
 import { SkillData } from './SkillData';
-import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper, GridTextContent, GridTextTitle, Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent} from "./SkillSectionStyles";
+import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent} from "./SkillSectionStyles";
 
 
 
@@ -47,28 +46,27 @@ const SkillSection = () => {
                 
                 
                  <GridHeroWrapper>
-                     {/* {SkillData.map((item, i ) => {
-                         if(i === val){
-                             return (
-                                 <div >
-                                     {item.title}
-                                 </div>
-                             )
-                         }
-                     })} */}
+                    
 
                      {SkillData.filter(idx => idx.id === val).map((item,index) => (
-                         <div key={index}>
-                             {item.title}
-                         </div>
+                         
+                             
+                    <GridTextParent key={index}>
+                        <GridHeroImg src={item.image} alt={item.alt}/>
+                        <GridText>
+                            <GridTextTitle>
+                            {item.title}
+
+                            </GridTextTitle>
+                            <GridTextContent>
+
+                            {item.text}
+                            </GridTextContent>
+                        </GridText>
+                    </GridTextParent>
+                         
                      ))}
 
-                    {/* <GridTextParent>
-                        <GridHeroImg />
-                        <GridText>
-                            
-                        </GridText>
-                    </GridTextParent> */}
 
                 </GridHeroWrapper> 
 

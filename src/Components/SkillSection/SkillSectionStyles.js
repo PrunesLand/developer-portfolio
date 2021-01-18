@@ -22,6 +22,8 @@ export const GridMainWrapper = styled.div`
     display:flex;
     flex-direction:column;
     width:100%;
+    justify-content:center;
+    align-items:center;
     
     
     @media screen and (min-width:720px){
@@ -97,8 +99,9 @@ export const GridHeroWrapper = styled.div`
     width:60vh;
 `
 export const GridTextParent = styled.div`
-    position:absolute;
-   
+    
+    
+    
     
 `
 
@@ -109,6 +112,7 @@ export const GridHeroImg = styled.img`
 export const GridText = styled.div`
     position:inherit;
     font-size:20px;
+    
 `
 
 export const GridTextTitle = styled.div``

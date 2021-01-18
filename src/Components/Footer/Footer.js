@@ -1,8 +1,13 @@
 import React from 'react'
-import {FooterContainer, FooterWrapper, FooterText, FooterScroll} from './FooterStyles'
-import {CgArrowUpR} from 'react-icons/cg'
+import {FooterContainer, FooterWrapper, FooterText, FooterScroll, FooterIcon} from './FooterStyles'
+
 
 const Footer = () => {
+
+    const scrollTop = () =>{
+        window.scrollTo({top: 0, behavior: 'smooth'});
+      };
+
     return (
         <FooterContainer>
             <FooterWrapper>
@@ -11,7 +16,8 @@ const Footer = () => {
                 <p>This site was made with reactjs</p>
                 </FooterText>
                 <FooterScroll>
-                    <CgArrowUpR />
+                    <FooterIcon onClick={scrollTop} />
+                    
                 </FooterScroll>
             </FooterWrapper>
         </FooterContainer>

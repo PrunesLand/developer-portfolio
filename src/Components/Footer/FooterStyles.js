@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import {CgArrowUpR} from 'react-icons/cg'
 
 export const FooterContainer = styled.footer`
     background-color:darkgreen;
@@ -20,4 +21,9 @@ export const FooterText = styled.div`
 export const FooterScroll = styled.div`
     padding:10px;
     font-size:3rem;
+    
+`
+
+export const FooterIcon = styled(CgArrowUpR)`
+    cursor: pointer;
 `
