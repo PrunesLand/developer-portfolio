@@ -1,6 +1,6 @@
 import React from 'react'
 import { ProjectData } from './ProjectData'
-import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList, ListWrapper, ListItem} from './ProjectsStyles'
+import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList, ListWrapper, ListItem, ListLink} from './ProjectsStyles'
 
 const Projects = () => {
     return (
@@ -15,7 +15,10 @@ const Projects = () => {
 
                     <ListWrapper>
                         <ListItem>
-                            {item.name}
+                            <ListLink href="/">
+                                {item.name}
+
+                            </ListLink>
                             
                         </ListItem>
                     </ListWrapper>

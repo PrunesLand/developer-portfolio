@@ -36,7 +36,7 @@ export const InfoItemWrapper = styled.div`
 `
 
 export const InfoWrapper = styled.div`
-    padding:15px;
+    padding:10px;
     justify-content:center;
     width:100%;
     display:flex;
@@ -48,13 +48,13 @@ export const InfoWrapper = styled.div`
 export const InfoHeading = styled.div`
     width:100%;
     text-align:center;
-    padding:40px 0 5px 0;;
+    padding:20px 0 5px 0;;
 `
 
 export const InfoItem = styled.div`
     
     padding: 0 5px 0 5px;
-    height:40vh;
+    height:38vh;
     min-width:300px;
     max-width:400px;
     border-radius:15px;
@@ -70,6 +70,6 @@ export const InfoTitle = styled.h1`
 export const InfoImg = styled.img``
 
 export const InfoText = styled.div`
-    padding-top:10px;
+    
     margin: 0 10px 0 10px;
 `

@@ -26,6 +26,11 @@ export const ProjectsList = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
+    justify-content:center;
+
+    @media screen and (min-width:720px){
+        flex-direction:row;
+    }
     
 `
 
@@ -33,7 +38,7 @@ export const ListWrapper = styled.ul`
     
     
     justify-content:space-around;
-    padding:40px;
+    padding:60px;
     height:10vh;
     width:30vh;
     
@@ -44,5 +49,13 @@ export const ListItem = styled.li`
     color:white;
     text-align:center;
     list-style:none;
+    height:95px;
+    padding:25px 0;
+`
+
+export const ListLink = styled.a`
+    text-decoration:none;
+    justify-content:center;
+    align-items:center;
     
 `
