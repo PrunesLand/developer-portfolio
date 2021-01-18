@@ -94,12 +94,13 @@ export const Logo8 = styled(SiGimp)`
 // Grid Hero Section
 
 export const GridHeroWrapper = styled.div`
-    
+    padding:85px 0;
     height:60vh;
     width:60vh;
 `
+
 export const GridTextParent = styled.div`
-    
+    padding:20px;
     
     
     
