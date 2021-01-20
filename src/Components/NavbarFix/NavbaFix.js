@@ -9,7 +9,7 @@ const NavbaFix = ({toggle}) => {
 
     const changeBackground = () => {
         
-        if(window.scrollY >= 650){
+        if(window.scrollY >= 670){
             setColor(true)
         }else{
             setColor(false)
@@ -20,7 +20,7 @@ const NavbaFix = ({toggle}) => {
     window.addEventListener('scroll', changeBackground);
 
     const hideTitle = () => {
-        if(window.scrollY >= 680){
+        if(window.scrollY >= 670){
             setToggle(true)
         }else{
             setToggle(false)
@@ -34,7 +34,7 @@ const NavbaFix = ({toggle}) => {
         <>
             <NavWrapper navbarColor={navbarColor}>
                     <NavTitle showTitle={navToggle}>
-                        <h1>PrunesLand</h1>
+                        <h1>Pranaya Anargya</h1>
                     </NavTitle>
                     <Burger  toggle={toggle}/>
                     <NavSelection showTitle={navToggle}>

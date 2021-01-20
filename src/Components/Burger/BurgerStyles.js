@@ -7,11 +7,11 @@ export const MobileIcon = styled.div`
         display:block;
         top:0;
         right: 0;
-        transform: translate(90%, 2vw);
+        position:absolute;
         font-size: 3rem;
         cursor: pointer;
         color: #fff;
         z-index: 888;
-        
+        padding:0.5vh 2vh;
     }
 `

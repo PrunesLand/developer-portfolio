@@ -1,24 +1,26 @@
-
+import startup from '../Images/InfoImages/startup.svg'
+import portfolio from '../Images/InfoImages/portfolio.svg'
+import blog from '../Images/InfoImages/blog.svg'
 
 export const InfoData = [
     {
-        title: 'Work with startups',
-        image: null,
+        title: 'Start-up Kickstart',
+        image: startup,
         alt: 'startup illustration',
-        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit at fugit dignissimos pariatur eius debitis et non, deleniti inventore commodi. Hic in nulla optio dolor, vero neque. Eaque dolores eveniet adipisci, fugiat sequi iusto suscipit officia. Assumenda fuga quasi maiores!'
+        text: 'Deploy E-commerce site/ Mobile application to kickstart your start up. '
     },
 
     {
-        title: 'Create portfolio',
-        image: null,
+        title: 'Portfolio Builder',
+        image: portfolio,
         alt: 'portfolio illustration',
-        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit at fugit dignissimos pariatur eius debitis et non, deleniti inventore commodi. Hic in nulla optio dolor, vero neque. Eaque dolores eveniet adipisci, fugiat sequi iusto suscipit officia. Assumenda fuga quasi maiores!'
+        text: 'Design and deploy a Portfolio website for clients to build a professional presence online. '
     },
 
     {
         title: 'Blogging',
-        image: null,
+        image: blog,
         alt: 'blogging illustration',
-        text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit at fugit dignissimos pariatur eius debitis et non, deleniti inventore commodi. Hic in nulla optio dolor, vero neque. Eaque dolores eveniet adipisci, fugiat sequi iusto suscipit officia. Assumenda fuga quasi maiores!'
+        text: 'Build and design websites for independent media platforms '
     }
 ]

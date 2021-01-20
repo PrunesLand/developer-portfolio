@@ -12,42 +12,26 @@ export const HeroWrapper = styled.div`
     justify-content:center;
     align-items:center;
     flex-direction:column;
-    padding-top:4vw;
+    padding-top:7.5vh;
     
 `
-export const HeroTitle = styled.div`
-    font-size:5vw;
-    text-align:center;
-    padding:5px 0 0 25px;
-    width:100%;
-    
-    
 
-    @media screen and (min-width:720px){
-        font-size: 6vh;
-    }
-
-    @media screen and (max-height:300px){
-        display:none;
-    }
-    
-`
 
 export const HeroNavWrapper = styled.div`
     position:fixed;
     display:flex;
     width:100%;
-    padding-top:5px;
+    
     z-index:99;
     background-color:#dda77b;
 `
 
 export const HeroImage = styled.img`
-    display:flex;
-    height:400px;
-    z-index:2;
-    border-radius:15px;
-    width:280px;
+    
+    
+    
+    
+    width:36.5vh;
 
     @media screen and (min-width:720px){
         
@@ -60,8 +44,8 @@ export const HeroImage = styled.img`
 export const ContentWrapper = styled.div`
     display:flex;
     flex-direction: column;
-    
-
+    align-items:center;
+    padding:10px 0;
     @media screen and (min-width:720px){
         flex-direction:row;
         
@@ -69,14 +53,15 @@ export const ContentWrapper = styled.div`
 `
 
 export const HeroText = styled.div`
-    
+    padding: 5px 15px ;
+    background-color:green;
     display:block;
     justify-content: center;
     align-items: center;
     color: black;
     font-size:19px;
     text-align:left;
-    width:380px;
+    width:50vh;
 
     p{
         width:300px;
@@ -89,13 +74,10 @@ export const HeroText = styled.div`
     
 `
 export const HeroTextWrapper = styled.div`
-    border-radius:15px;
-    padding:10px 0 10px 5px;
-    background-color:green;
-    transform:translateY(-20px);
     z-index:3;
-    height:285px;
-    
+    height:30vh;
+    padding:10px;
+
     @media screen and (min-width:720px){
         height:400px;
         transform:translate(10px,75px);
@@ -103,15 +85,15 @@ export const HeroTextWrapper = styled.div`
 `
 
 export const HeroWrapperTitle = styled.div`
-    font-size:40px;
+    font-size:2.5rem;
     background-color:green;
-    border-radius: 10px;
-    height:50px;
-    width:350px;
+    
+    height:7.5vh;
+    padding:0 1vh;
     text-align:center;
-    transform:translate(5%, 40px);
+   
     z-index:3;
-
+    
     @media screen and (min-width:720px){
         transform:translate(-20%, 40px);
         width:400px;

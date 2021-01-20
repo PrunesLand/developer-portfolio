@@ -17,8 +17,10 @@ const Hero = () => {
                     <HeroTextWrapper>
 
                     <HeroText>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nulla magni. Quasi placeat at numquam!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis in eveniet animi? Ad dolorum maxime doloribus reprehenderit, eligendi sint porro adipisci quis et voluptatibus, explicabo, ipsum hic. Reprehenderit, aliquid assumenda!</p>
+                        <p>Hi, I'm <u>Pranaya</u>!</p>
+                        <p>I am a <u>Front-End Developer</u> that specializes in React Framework.</p>
+                        
+                        <p>I'm a developer that is keen on building and deploying sites for <u>independent media</u> and <u>start-ups</u></p>
                     </HeroText>
                     </HeroTextWrapper>
                     </ContentWrapper>
