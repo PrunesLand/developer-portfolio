@@ -40,7 +40,7 @@ export const GridButtonWrapper = styled.div`
     height: 40vh;
     width:100%;
     justify-content:center;
-    padding:20px;
+    
 
 `
 
@@ -51,7 +51,7 @@ export const GridItemContainer = styled.ul`
     grid-gap:40px;
     background-color:green;
     padding:15px 15px 10px 15px;
-    border-radius:15px;
+    
     
 `
 
@@ -94,20 +94,27 @@ export const Logo8 = styled(SiGimp)`
 // Grid Hero Section
 
 export const GridHeroWrapper = styled.div`
-    padding:85px 0;
-    height:60vh;
+    
+    
     width:60vh;
 `
 
 export const GridTextParent = styled.div`
-    padding:20px;
+    width:60vh;
+    padding:0 10px;
     
     
     
 `
 
 export const GridHeroImg = styled.img`
-    
+    width:45vh;
+    height:30vh;
+    object-fit:cover;
+`
+
+export const GridImgWrapper = styled.div`
+    height:30vh;
 `
 
 export const GridText = styled.div`
@@ -128,4 +135,5 @@ export const GridHeader = styled.div`
 
 export const GridHeadTitle = styled.h1`
     font-size:1.5rem;
+    padding:10px;
 `

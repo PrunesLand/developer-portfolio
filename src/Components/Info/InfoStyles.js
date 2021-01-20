@@ -28,7 +28,7 @@ export const InfoSection = styled.section`
 `
 
 export const InfoItemWrapper = styled.div`
-    padding:10px;
+    padding:20px 15px;
     display:flex;
     justify-content:center;
     text-align:center;
@@ -71,7 +71,7 @@ export const InfoItem = styled.div`
     height:40vh;
     min-width:300px;
     max-width:400px;
-    border-radius:15px;
+    
     background-color:white;
     
     

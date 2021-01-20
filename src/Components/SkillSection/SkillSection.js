@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { SkillData } from './SkillData';
-import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent} from "./SkillSectionStyles";
+import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent, GridImgWrapper} from "./SkillSectionStyles";
 
 
 
@@ -8,19 +8,12 @@ const SkillSection = () => {
 
     const [val, setVal] = useState(0);
     
-    
-
-    
-    
-    
-
-
     return (
         <GridSection>
             <GridContainer>
                 <GridHeader>
                     <GridHeadTitle>
-                        Here are what I'm experienced with:
+                        Here are the skills I'm experienced in:
                     </GridHeadTitle>
                 </GridHeader>
                     
@@ -43,16 +36,16 @@ const SkillSection = () => {
                       
                 </GridButtonWrapper>
                 
-                
-                
                  <GridHeroWrapper>
-                    
 
-                     {SkillData.filter(idx => idx.id === val).map((item,index) => (
-                         
+                     {SkillData.filter(idx => idx.id === val).map((item,index) => (  
                              
                     <GridTextParent key={index}>
-                        <GridHeroImg src={item.image} alt={item.alt}/>
+                        <GridImgWrapper>
+
+                        <GridHeroImg src={item.image} alt={item.alt}/> 
+                        {/* make item title inside image and have semi transparent wrapper */}
+                        </GridImgWrapper>
                         <GridText>
                             <GridTextTitle>
                             {item.title}
@@ -67,11 +60,8 @@ const SkillSection = () => {
                          
                      ))}
 
-
                 </GridHeroWrapper> 
-
-                
-                        
+        
                 </GridMainWrapper>
             </GridContainer>
         </GridSection>
