@@ -13,7 +13,7 @@ const SkillSection = () => {
             <GridContainer>
                 <GridHeader>
                     <GridHeadTitle>
-                        Here are the skills I'm experienced in:
+                        I'm experienced in...
                     </GridHeadTitle>
                 </GridHeader>
                     
@@ -46,14 +46,14 @@ const SkillSection = () => {
                         <GridTitleContainer>
 
                             <GridTextTitle>
-                            {item.title}
+                                {item.title}
 
                             </GridTextTitle>
+
                         </GridTitleContainer>
+                        
                         <GridHeroImg src={item.image} alt={item.alt}/>
-                            
-                         
-                       
+                                                 
                         </GridImgWrapper>
                         <GridText>
                             <GridTextContent>

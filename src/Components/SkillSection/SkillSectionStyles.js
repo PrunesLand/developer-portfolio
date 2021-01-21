@@ -7,7 +7,7 @@ import {GrDomain} from 'react-icons/gr'
 
 export const GridSection = styled.section`
 overflow: hidden;
-    height:100vh;
+    height:105vh;
     background-color:maroon;
     width:100%;
     overflow:hidden;
@@ -29,6 +29,7 @@ export const GridMainWrapper = styled.div`
     
     @media screen and (min-width:720px){
         flex-direction:row;
+        padding:5vh 0;
     }
 `
 
@@ -96,13 +97,15 @@ export const Logo8 = styled(SiGimp)`
 
 export const GridHeroWrapper = styled.div`
     
-    
-    width:60vh;
+    text-align:center;
+    width:100%;
 `
 
 export const GridTextParent = styled.div`
-    width:60vh;
+    width:100%;
+    text-align:center;
     padding:0 10px;
+   
     
     
     
@@ -111,8 +114,14 @@ export const GridTextParent = styled.div`
 export const GridHeroImg = styled.img`
     width:45vh;
     height:30vh;
-    object-fit:cover;
     
+    
+    @media screen and (min-width:720px){
+        width:55vw;
+        height:60vh;
+        max-height:400px;
+        max-width:500px;
+    }
 `
 
 export const GridImgWrapper = styled.div`
@@ -121,7 +130,11 @@ export const GridImgWrapper = styled.div`
     width:100%;
     display:flex;
     justify-content:center;
-    
+    padding-bottom:5vh;
+    @media screen and (min-width:720px){
+        width:100%;
+        height:100%;
+    }
     
 `
 
@@ -129,8 +142,9 @@ export const GridText = styled.div`
     position:inherit;
     font-size:1.1rem;
     
-    padding:5px;
-    margin:0 15px;
+    width:55vh;
+    text-align:center;
+   
 `
 
 export const GridTextTitle = styled.div`
@@ -139,6 +153,10 @@ export const GridTextTitle = styled.div`
    font-size:2rem;
    padding: 12vh 0;
    color:black;
+
+   @media screen and (min-width:720px){
+       padding:23vh 0;
+   }
    
     
 `
@@ -154,8 +172,13 @@ export const GridTitleContainer = styled.div`
 `
 
 export const GridTextContent = styled.div`
-    background-color:green;
+    
     padding:10px;
+    margin:10px;
+    text-align:center;
+    width:100%;
+    max-width:500px;
+    
 `
 
 // Grid Header
@@ -165,6 +188,6 @@ export const GridHeader = styled.div`
 `
 
 export const GridHeadTitle = styled.h1`
-    font-size:1.5rem;
+    font-size:2.5rem;
     padding:10px;
 `

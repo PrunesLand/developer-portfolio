@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {NavWrapper,NavTitle, NavSelection, NavItem} from './NavbarFixStyles'
 import Burger from '../Burger/Burger'
 
+
 const NavbaFix = ({toggle}) => {
 
     const [navbarColor, setColor] = useState(false);

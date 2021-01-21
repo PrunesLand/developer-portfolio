@@ -11,7 +11,7 @@ export const ProjectsSection = styled.section`
 export const ProjectsWrapper = styled.div`
     color:white;
     font-size:30px;
-    
+    text-align:center;
     width:100%;
     
 `
@@ -31,6 +31,11 @@ export const ProjectsList = styled.div`
 
     @media screen and (min-width:720px){
         flex-direction:row;
+    }
+
+    img{
+        padding:15px;
+        height:60vh;
     }
     
 `
@@ -60,3 +65,4 @@ export const ListLink = styled.a`
     align-items:center;
     
 `
+

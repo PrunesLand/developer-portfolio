@@ -1,6 +1,7 @@
 import React from 'react'
 // import { ProjectData } from './ProjectData'
 import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList} from './ProjectsStyles'
+import empty from '../Images/ProjectsImages/empty.svg'
 
 // ListWrapper, ListItem, ListLink
 
@@ -12,7 +13,9 @@ const Projects = () => {
                     Past Projects
                 </ProjectsHeader>
                 <ProjectsList>
-                    There are currently no past projects.
+
+                    <img src={empty} alt='empty'/>
+                    
                     {/* {ProjectData.map(item => {
                         return(
 
@@ -29,6 +32,7 @@ const Projects = () => {
 
                     })} */}
                 </ProjectsList>
+                There are currently no past projects.
             </ProjectsWrapper>
         </ProjectsSection>
     )

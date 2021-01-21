@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export const NavWrapper = styled.nav`
     display:flex;
-    
+    justify-content:center;
     align-items:center;
     flex-direction:row;
     text-align:center;
@@ -21,7 +21,7 @@ export const NavTitle = styled.div`
 
     @media screen and (min-width:720px){
         display: ${({showTitle}) => (showTitle? 'none' : 'inherit')};
-        font-size:5vh;
+        font-size:2rem;
     }
 
     

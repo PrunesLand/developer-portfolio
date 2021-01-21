@@ -53,8 +53,7 @@ export const NavItem = styled.li`
     
     
     &:hover{
-        border: 3px solid blue;
-        margin:-5px;
+        text-decoration:underline;
     }
 `
 
@@ -62,7 +61,7 @@ export const NavLinks = styled.div`
     text-align:center;
     
     cursor: pointer;
-    font-size:30px;
+    font-size:2rem;
     width:180px;
     
     
