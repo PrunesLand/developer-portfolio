@@ -1,6 +1,8 @@
 import React from 'react'
-import { ProjectData } from './ProjectData'
-import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList, ListWrapper, ListItem, ListLink} from './ProjectsStyles'
+// import { ProjectData } from './ProjectData'
+import {ProjectsSection, ProjectsWrapper, ProjectsHeader, ProjectsList} from './ProjectsStyles'
+
+// ListWrapper, ListItem, ListLink
 
 const Projects = () => {
     return (
@@ -10,7 +12,8 @@ const Projects = () => {
                     Past Projects
                 </ProjectsHeader>
                 <ProjectsList>
-                    {ProjectData.map(item => {
+                    There are currently no past projects.
+                    {/* {ProjectData.map(item => {
                         return(
 
                     <ListWrapper>
@@ -24,7 +27,7 @@ const Projects = () => {
                     </ListWrapper>
                         )
 
-                    })}
+                    })} */}
                 </ProjectsList>
             </ProjectsWrapper>
         </ProjectsSection>

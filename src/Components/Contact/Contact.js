@@ -3,6 +3,7 @@ import {ContactSection, ContactContainer, HeroWrapper, HeroImg, HeroText, Contac
 import image from '../Images/ContactImages/sydney.jpg'
 import {AiFillLinkedin, AiFillGithub, AiOutlineMail} from 'react-icons/ai'
 
+
 const Contact = () => {
     return (
         <ContactSection>
@@ -11,11 +12,11 @@ const Contact = () => {
 
                     <ImageWrapper>
                         <HeroImg src={image}/>
+                        <HeroText>
+                            Sydney-Based
+                        </HeroText> 
                     </ImageWrapper>
 
-                    <HeroText>
-                        Sydney-Based
-                    </HeroText> 
                 </HeroWrapper>
                 
                 <ContactText>
@@ -26,17 +27,22 @@ const Contact = () => {
                     <TextList>
 
                     <ListItem>
-                    <AiOutlineMail />: abcdefg@gmail.com
+                    <AiOutlineMail />: 
+                    
+                    <p>abcdefg@gmail.com</p>
 
                     </ListItem>
+
                     <ListItem>
-                    <AiFillGithub />: View more of my work in my Github at Prunesland
+                    <AiFillGithub />:
+                    <p>View more of my work in my Github at Prunesland</p>
 
                     </ListItem>
 
 
                     <ListItem>
-                    <AiFillLinkedin />: Reach out to me on LinkedIn at prunesLand
+                    <AiFillLinkedin />
+                    <p>: Reach out to me on LinkedIn at prunesLand</p>
 
                     </ListItem>
 

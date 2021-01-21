@@ -12,7 +12,7 @@ export const SkillData = [
         image: html,
         alt: 'illustration here',
         title: 'HTML',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
+        text: 'HTML is the backbone of web development.'
     },
     {
         

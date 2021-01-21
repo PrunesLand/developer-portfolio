@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { SkillData } from './SkillData';
-import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent, GridImgWrapper} from "./SkillSectionStyles";
+import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent, GridImgWrapper, GridTitleContainer} from "./SkillSectionStyles";
 
 
 
@@ -43,14 +43,19 @@ const SkillSection = () => {
                     <GridTextParent key={index}>
                         <GridImgWrapper>
 
-                        <GridHeroImg src={item.image} alt={item.alt}/> 
-                        {/* make item title inside image and have semi transparent wrapper */}
-                        </GridImgWrapper>
-                        <GridText>
+                        <GridTitleContainer>
+
                             <GridTextTitle>
                             {item.title}
 
                             </GridTextTitle>
+                        </GridTitleContainer>
+                        <GridHeroImg src={item.image} alt={item.alt}/>
+                            
+                         
+                       
+                        </GridImgWrapper>
+                        <GridText>
                             <GridTextContent>
 
                             {item.text}

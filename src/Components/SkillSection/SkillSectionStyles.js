@@ -6,6 +6,7 @@ import {GrDomain} from 'react-icons/gr'
 // Global Grid section
 
 export const GridSection = styled.section`
+overflow: hidden;
     height:100vh;
     background-color:maroon;
     width:100%;
@@ -49,7 +50,7 @@ export const GridItemContainer = styled.ul`
     grid-template-columns: auto auto auto;
     font-size:3.5rem;
     grid-gap:40px;
-    background-color:green;
+    
     padding:15px 15px 10px 15px;
     
     
@@ -111,21 +112,51 @@ export const GridHeroImg = styled.img`
     width:45vh;
     height:30vh;
     object-fit:cover;
+    
 `
 
 export const GridImgWrapper = styled.div`
+    position:relative;
     height:30vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+    
 `
 
 export const GridText = styled.div`
     position:inherit;
-    font-size:20px;
+    font-size:1.1rem;
+    
+    padding:5px;
+    margin:0 15px;
+`
+
+export const GridTextTitle = styled.div`
+    position:absolute;
+    width:100%;
+   font-size:2rem;
+   padding: 12vh 0;
+   color:black;
+   
+    
+`
+export const GridTitleContainer = styled.div`
+    position:absolute;
+    width:40vh;
+    height:20vh;
+    
+    
+    
+    
     
 `
 
-export const GridTextTitle = styled.div``
-
-export const GridTextContent = styled.div``
+export const GridTextContent = styled.div`
+    background-color:green;
+    padding:10px;
+`
 
 // Grid Header
 

@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const ProjectsSection = styled.section`
+    overflow:hidden;
     background-color:darkmagenta;
     height:100vh;
     width:100%;
