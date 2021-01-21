@@ -1,12 +1,27 @@
 import React from 'react'
 import {DropdownContainer, Icon, CloseIcon, DropdownWrapper, DropdownMenu, DropdownItem, DropdownLink} from './DropdownStyles'
-import Scroll from 'react-scroll'
-const ScrollLink = Scroll.ScrollLink
 
 const Dropdown = ({isOpen, toggle}) => {
 
-    const anchor = () => {
-        var elmnt = document.getElementById("contact");
+    
+
+    const jumpCont = () => {
+        var elmnt = document.getElementById('contact');
+        elmnt.scrollIntoView();
+        toggle();
+    }
+    const jumpServ = () => {
+        var elmnt = document.getElementById('services');
+        elmnt.scrollIntoView();
+        toggle();
+    }
+    const jumpSkill = () => {
+        var elmnt = document.getElementById('skill');
+        elmnt.scrollIntoView();
+        toggle();
+    }
+    const jumpProj = () => {
+        var elmnt = document.getElementById('project');
         elmnt.scrollIntoView();
         toggle();
     }
@@ -19,18 +34,16 @@ const Dropdown = ({isOpen, toggle}) => {
             <DropdownWrapper>
                 <DropdownMenu >
                     <DropdownItem>
-                        <DropdownLink to='#services'>
-                            
-                            Services</DropdownLink>
+                        <DropdownLink onClick={jumpServ}>Services</DropdownLink>
                     </DropdownItem>
                     <DropdownItem>
-                        <DropdownLink to='skills'>Skills</DropdownLink>
+                        <DropdownLink onClick={jumpSkill}>Skills</DropdownLink>
                     </DropdownItem>
                     <DropdownItem>
-                        <DropdownLink to='projects'>Projects</DropdownLink>
+                        <DropdownLink onClick={jumpProj}>Projects</DropdownLink>
                     </DropdownItem>
                     <DropdownItem>
-                        <DropdownLink  onClick={anchor}>Contact Me</DropdownLink>
+                        <DropdownLink  onClick={jumpCont}>Contact Me</DropdownLink>
                     </DropdownItem>
                 </DropdownMenu>
             </DropdownWrapper>

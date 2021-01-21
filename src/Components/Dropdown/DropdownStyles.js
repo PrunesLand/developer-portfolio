@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+
 import {BiXCircle} from 'react-icons/bi'
 
 
@@ -9,7 +9,7 @@ export const DropdownContainer = styled.aside`
     height: 100vh;
     width: 100%;
     
-    background-color:orange;
+    background-color:#7D4E57;
     z-index:999;
     top:0;
     left: 0;
@@ -27,7 +27,7 @@ export const Icon = styled.div`
 
 export const CloseIcon = styled(BiXCircle)`
     font-size:3rem;
-    color: blue;
+    color: white;
     
 `
 
@@ -50,9 +50,12 @@ export const DropdownItem = styled.div`
     
 `
 
-export const DropdownLink = styled(Link)`
+export const DropdownLink = styled.li`
+    cursor:pointer;
     font-size:40px;
-    text-decoration:none;
-    border-bottom:3px dotted blue;
-    color: blue;
+    list-style:none;
+    width:100%;
+    text-decoration:underline;
+    
+    color: white;
 `

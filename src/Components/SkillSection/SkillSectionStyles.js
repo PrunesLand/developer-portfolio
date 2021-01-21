@@ -6,12 +6,12 @@ import {GrDomain} from 'react-icons/gr'
 // Global Grid section
 
 export const GridSection = styled.section`
-overflow: hidden;
-    height:105vh;
-    background-color:maroon;
+    overflow: hidden;
+    height:120vh;
+    background-color:#212D40;
     width:100%;
     overflow:hidden;
-    
+    padding-top:8vh;
 `
 export const GridContainer = styled.div`
     color:white;
@@ -38,10 +38,12 @@ export const GridMainWrapper = styled.div`
 export const GridButtonWrapper = styled.div`
     
     
-    width:40vh;
-    height: 40vh;
+    height:40vh;
     width:100%;
-    justify-content:center;
+    
+    @media screen and (min-width:720px){
+        height:40vw;
+    }
     
 
 `
@@ -97,7 +99,7 @@ export const Logo8 = styled(SiGimp)`
 
 export const GridHeroWrapper = styled.div`
     
-    text-align:center;
+    height:90vh;
     width:100%;
 `
 
@@ -112,12 +114,13 @@ export const GridTextParent = styled.div`
 `
 
 export const GridHeroImg = styled.img`
-    width:45vh;
+    width:90%;
     height:30vh;
-    
-    
+    object-fit:cover;
+    padding-bottom:1vh;
+
     @media screen and (min-width:720px){
-        width:55vw;
+        width:100%;
         height:60vh;
         max-height:400px;
         max-width:500px;
@@ -141,10 +144,8 @@ export const GridImgWrapper = styled.div`
 export const GridText = styled.div`
     position:inherit;
     font-size:1.1rem;
-    
-    width:55vh;
     text-align:center;
-   
+    width:100%;
 `
 
 export const GridTextTitle = styled.div`
@@ -156,6 +157,7 @@ export const GridTextTitle = styled.div`
 
    @media screen and (min-width:720px){
        padding:23vh 0;
+       font-size:2.5rem;
    }
    
     
@@ -172,12 +174,14 @@ export const GridTitleContainer = styled.div`
 `
 
 export const GridTextContent = styled.div`
-    
     padding:10px;
-    margin:10px;
-    text-align:center;
-    width:100%;
-    max-width:500px;
+    background-color:#364156;
+    margin:0 4vh;
+
+    @media screen and (min-width:720px){
+        padding:20px;
+        margin: 0 10vw;
+    }
     
 `
 

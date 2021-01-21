@@ -1,14 +1,12 @@
 import React from 'react'
 import { InfoData } from './InfoData'
 import {InfoSection, InfoWrapper, InfoItem,InfoTitle,InfoImg,InfoText, InfoHeading, InfoItemWrapper, InfoHeadingTitle, InfoImgWrapper} from './InfoStyles'
-import { Element } from 'react-scroll'
 
 const Info = () => {
     return (
         <div>
-            <Element id='services' name='services'>
 
-            <InfoSection >
+            <InfoSection id='services'>
                 <InfoHeading>
                     <InfoHeadingTitle>
                         Offered Services
@@ -36,7 +34,7 @@ const Info = () => {
                     
                 </InfoWrapper>
             </InfoSection>
-        </Element>
+       
         </div>
     )
 }

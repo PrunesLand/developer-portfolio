@@ -3,11 +3,12 @@ import styled from 'styled-components'
 export const InfoSection = styled.section`
     overflow:hidden;
     height: 170vh;
-    background-color:grey;
+    background-color:#11151C;
     min-height:1130px;
-    max-height:1130px;
+    max-height:1300px;
     text-align:center;
-
+    padding-top:8vh;
+    
     @media screen and (min-width:890px){
         
         min-height:800px;
@@ -17,7 +18,7 @@ export const InfoSection = styled.section`
     @media screen and (min-width:1315px){
         
         min-height:90vh;
-        max-height:400px;
+        max-height:900px;
     }
 
 
@@ -72,7 +73,7 @@ export const InfoItem = styled.div`
     min-width:300px;
     max-width:400px;
     
-    background-color:white;
+    background-color:#364156;
     
     
 `

@@ -9,7 +9,7 @@ const SkillSection = () => {
     const [val, setVal] = useState(0);
     
     return (
-        <GridSection>
+        <GridSection id='skill'>
             <GridContainer>
                 <GridHeader>
                     <GridHeadTitle>

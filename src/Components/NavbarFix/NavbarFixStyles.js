@@ -11,7 +11,7 @@ export const NavWrapper = styled.nav`
     position:fixed;
     z-index: 998;
     transition: 0.3s ease-in-out;
-    background-color: ${({navbarColor}) => (navbarColor? 'green': 'transparent')};
+    background-color: ${({navbarColor}) => (navbarColor? '#7D4E57': 'transparent')};
     height:8vh;
 `
 export const NavTitle = styled.div`
@@ -39,8 +39,13 @@ export const NavSelection = styled.ul`
 `
 
 export const NavItem = styled.li`
-    
+    cursor:pointer;
     font-size: 30px;
     padding:5px 0 0 25px;
     width:180px;
+    color:white;
+
+    &:hover{
+       text-decoration:underline;
+    }
 `

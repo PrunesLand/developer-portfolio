@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const ProjectsSection = styled.section`
     overflow:hidden;
-    background-color:darkmagenta;
+    background-color:#11151C;
     height:100vh;
     width:100%;
-    
+    padding-top:8vh;
 `
 
 export const ProjectsWrapper = styled.div`

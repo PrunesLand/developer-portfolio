@@ -9,6 +9,9 @@ import Contact from '../Contact/Contact'
 import Footer from '../Footer/Footer'
 import Projects from '../Projects/Projects'
 
+import {createGlobalStyle} from 'styled-components'
+
+
 const Home = () => {
 
     const [isOpen, setIsOpen] = useState(false)
@@ -17,13 +20,21 @@ const Home = () => {
         setIsOpen(!isOpen);
     }
     
+    const GlobalStyle = createGlobalStyle`
+        *{
+             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    `
     
     return (
         <>
+        <GlobalStyle />
         <Dropdown isOpen={isOpen} toggle={toggle}/>
         <NavbarFix toggle={toggle}/>
         <Hero />
-        <NavbarHero />
+        <NavbarHero toggle={toggle}/>
         <Info /> 
         <SkillSection />
         <Projects />

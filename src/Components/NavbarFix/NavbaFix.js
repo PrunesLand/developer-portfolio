@@ -8,6 +8,27 @@ const NavbaFix = ({toggle}) => {
     const [navbarColor, setColor] = useState(false);
     const [navToggle, setToggle] = useState(false);
 
+    const jumpCont = () => {
+        var elmnt = document.getElementById('contact');
+        elmnt.scrollIntoView();
+        
+    }
+    const jumpServ = () => {
+        var elmnt = document.getElementById('services');
+        elmnt.scrollIntoView();
+        
+    }
+    const jumpSkill = () => {
+        var elmnt = document.getElementById('skill');
+        elmnt.scrollIntoView();
+        
+    }
+    const jumpProj = () => {
+        var elmnt = document.getElementById('project');
+        elmnt.scrollIntoView();
+        
+    }
+
     const changeBackground = () => {
         
         if(window.scrollY >= 670){
@@ -39,10 +60,10 @@ const NavbaFix = ({toggle}) => {
                     </NavTitle>
                     <Burger  toggle={toggle}/>
                     <NavSelection showTitle={navToggle}>
-                        <NavItem>Services</NavItem>
-                        <NavItem>Skill</NavItem>
-                        <NavItem>Projects</NavItem>
-                        <NavItem>Contact Me</NavItem>
+                        <NavItem onClick={jumpServ}>Services</NavItem>
+                        <NavItem onClick={jumpSkill}>Skill</NavItem>
+                        <NavItem onClick={jumpProj}>Projects</NavItem>
+                        <NavItem onClick={jumpCont}>Contact Me</NavItem>
                     </NavSelection>
             </NavWrapper>      
         </>

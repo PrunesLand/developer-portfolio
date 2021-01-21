@@ -3,9 +3,9 @@ import {AiFillLinkedin, AiFillGithub, AiOutlineMail} from 'react-icons/ai'
 
 export const ContactSection = styled.section`
     overflow:hidden;
-    
-    background-color:lightblue;
-    height:100vh;
+    padding-top:8vh;
+    background-color:#212D40;
+    height:110vh;
     width:100%;
 `
 
@@ -49,8 +49,8 @@ export const HeroImg = styled.img`
 
     @media screen and (min-width:720px){
        max-width:600px;
-       max-height:600px;
-       left:10%;
+       max-height:500px;
+       left:5%;
     }
    
 `
@@ -70,8 +70,8 @@ export const HeroText = styled.div`
 `
 export const ContactText = styled.div`
     padding:5vh 15px;
-    height:50vh;
-    background-color:green;
+    height:55vh;
+    background-color:#364156;
     width:100%;
 `
 

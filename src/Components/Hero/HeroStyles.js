@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const HeroSection = styled.section`
     overflow:hidden;
     height: 100vh;
-    background-color:#dda77b;
+    background-color:#212D40;
     max-height: 1100px;
 `
 
@@ -23,7 +23,7 @@ export const HeroNavWrapper = styled.div`
     width:100%;
     
     z-index:99;
-    background-color:#dda77b;
+    
 `
 
 export const HeroImage = styled.img`
@@ -54,14 +54,14 @@ export const ContentWrapper = styled.div`
 
 export const HeroText = styled.div`
     padding: 5px 15px ;
-    background-color:green;
+    background-color:#364156;
     display:block;
     justify-content: center;
     align-items: center;
     color: black;
     font-size:19px;
     text-align:left;
-    width:50vh;
+    width:43vh;
 
     p{
         width:300px;
@@ -76,7 +76,7 @@ export const HeroText = styled.div`
 export const HeroTextWrapper = styled.div`
     z-index:3;
     height:30vh;
-    padding:10px;
+    padding:15px;
 
     @media screen and (min-width:720px){
         height:400px;
@@ -86,7 +86,7 @@ export const HeroTextWrapper = styled.div`
 
 export const HeroWrapperTitle = styled.div`
     font-size:2.5rem;
-    background-color:green;
+    background-color:#364156;
     
     height:7.5vh;
     padding:0 1vh;

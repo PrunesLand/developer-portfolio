@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import {CgArrowUpR} from 'react-icons/cg'
 
 export const FooterContainer = styled.footer`
-    background-color:darkgreen;
-    height:30vh;
+    background-color:#11151C;
+    height:250px;
     width:100%;
 `
 

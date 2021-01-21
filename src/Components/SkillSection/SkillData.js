@@ -20,14 +20,14 @@ export const SkillData = [
         image: css,
         alt: 'illustration here',
         title: 'CSS',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus '
     },
     {
         id:2,
         image: javascript,
         alt: 'illustration here',
         title: 'JavaScript',
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis quaerat expedita libero ea labore cumque similique distinctio sed minus laborum, excepturi consequatur perspiciatis accusantium fugit corporis vel voluptas accusamus.'
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nobis corporis vel voluptas accusamus.'
     },
     {
         id:3,

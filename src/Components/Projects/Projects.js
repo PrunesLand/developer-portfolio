@@ -7,7 +7,7 @@ import empty from '../Images/ProjectsImages/empty.svg'
 
 const Projects = () => {
     return (
-        <ProjectsSection>
+        <ProjectsSection id='project'> 
             <ProjectsWrapper>
                 <ProjectsHeader>
                     Past Projects
