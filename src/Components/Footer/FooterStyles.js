@@ -18,12 +18,12 @@ export const FooterText = styled.div`
     padding:15px;
 
     h3{
-        font-size:2.5rem;
+        font-size:2rem;
     }
 
     p{
         padding-top:3vh;
-        font-size:1.2rem;
+        font-size:0.8rem;
     }
 `
 

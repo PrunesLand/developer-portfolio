@@ -30,7 +30,7 @@ export const NavTitle = styled.div`
 export const NavSelection = styled.ul`
     list-style:none;
     display:none;
-
+    
     @media screen and (min-width:650px){
         display: ${({showTitle}) => (!showTitle? 'none' : 'inherit')};
     }
@@ -40,7 +40,7 @@ export const NavSelection = styled.ul`
 
 export const NavItem = styled.li`
     cursor:pointer;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding:5px 0 0 25px;
     width:180px;
     color:white;

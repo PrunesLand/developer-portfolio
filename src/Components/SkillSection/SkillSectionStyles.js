@@ -63,26 +63,50 @@ export const GridItemContainer = styled.ul`
 
 export const Logo1 = styled(SiHtml5)`
     cursor:pointer;
+
+    &:hover{
+        fill: #eb6424;
+    }
 `
 
 export const Logo2 = styled(SiCsswizardry)`
     cursor:pointer;
+
+    &:hover{
+        fill: #00a5cf;
+    }
 `
 
 export const Logo3 = styled(SiJavascript)`
     cursor:pointer;
+
+    &:hover{
+        fill: #ffee32;
+    }
 `
 
 export const Logo4 = styled(SiReact)`
     cursor:pointer;
+
+    &:hover{
+        fill: #48cae4;
+    }
 `
 
 export const Logo5 = styled(SiMysql)`
     cursor:pointer;
+
+    &:hover{
+        fill: #023e8a;
+    }
 `
 
 export const Logo6 = styled(SiJava)`
     cursor:pointer;
+
+    &:hover{
+        fill: red;
+    }
 `
 
 export const Logo7 = styled(GrDomain)`
@@ -91,6 +115,10 @@ export const Logo7 = styled(GrDomain)`
 
 export const Logo8 = styled(SiGimp)`
     cursor:pointer;
+
+    &:hover{
+        fill: grey;
+    }
 `
 
 
@@ -133,7 +161,7 @@ export const GridImgWrapper = styled.div`
     width:100%;
     display:flex;
     justify-content:center;
-    padding-bottom:5vh;
+    padding-bottom:3vh;
     @media screen and (min-width:720px){
         width:100%;
         height:100%;
@@ -153,8 +181,8 @@ export const GridTextTitle = styled.div`
     width:100%;
    font-size:2rem;
    padding: 12vh 0;
-   color:black;
-
+   color:white;
+    
    @media screen and (min-width:720px){
        padding:23vh 0;
        font-size:2.5rem;
@@ -164,10 +192,10 @@ export const GridTextTitle = styled.div`
 `
 export const GridTitleContainer = styled.div`
     position:absolute;
-    width:40vh;
-    height:20vh;
-    
-    
+    width:50vh;
+    height:29vh;
+    background-color:black;
+    opacity:60%;
     
     
     
@@ -188,7 +216,7 @@ export const GridTextContent = styled.div`
 // Grid Header
 
 export const GridHeader = styled.div`
-    padding:10px;
+    
 `
 
 export const GridHeadTitle = styled.h1`

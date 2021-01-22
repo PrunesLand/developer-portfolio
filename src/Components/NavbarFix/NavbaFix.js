@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {NavWrapper,NavTitle, NavSelection, NavItem} from './NavbarFixStyles'
 import Burger from '../Burger/Burger'
-
+import Fade  from 'react-reveal/Fade'
 
 const NavbaFix = ({toggle}) => {
 
@@ -55,9 +55,12 @@ const NavbaFix = ({toggle}) => {
     return (
         <>
             <NavWrapper navbarColor={navbarColor}>
+                <Fade Top delay={400}>
+
                     <NavTitle showTitle={navToggle}>
                         <h1>Pranaya Anargya</h1>
                     </NavTitle>
+                </Fade>
                     <Burger  toggle={toggle}/>
                     <NavSelection showTitle={navToggle}>
                         <NavItem onClick={jumpServ}>Services</NavItem>

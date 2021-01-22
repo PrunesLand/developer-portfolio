@@ -13,7 +13,7 @@ const Footer = () => {
             <FooterWrapper>
                 <FooterText>
                 <h3>PrunesLand's Portfolio</h3>
-                <p>This site was made with reactjs</p>
+                <p>This site was made with ReactJS</p>
                 </FooterText>
                 <FooterScroll>
                     <FooterIcon onClick={scrollTop} />

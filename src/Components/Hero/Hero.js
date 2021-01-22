@@ -1,6 +1,7 @@
 import React from 'react'
 import heroImage from '../Images/photo-example.jpg'
-import {HeroSection, HeroWrapper, HeroImage, HeroText, HeroWrapperTitle, ContentWrapper, HeroTextWrapper} from './HeroStyles'
+import {HeroSection, HeroWrapper, HeroImage, HeroText, HeroWrapperTitle, ContentWrapper, HeroTextWrapper, HeroTextTitle} from './HeroStyles'
+import Fade from 'react-reveal/Fade';
 
 const Hero = () => {
     return (
@@ -8,20 +9,32 @@ const Hero = () => {
             <HeroSection>
                 
                 <HeroWrapper>
-                        <HeroWrapperTitle>
+                    <div style={{zIndex:10}}>  
+
+                    <Fade Left delay={700}>
+                        <HeroWrapperTitle >
                             Front-End developer
                         </HeroWrapperTitle>
-                    <ContentWrapper>
+                    </Fade>
+                    </div>
 
-                    <HeroImage src={heroImage} />
+                    <ContentWrapper>
+                    
+                    <Fade delay={100}>
+
+                        <HeroImage src={heroImage} />
+                    </Fade>
                     <HeroTextWrapper>
 
+                    <Fade delay={1000}>
+
                     <HeroText>
-                        <p>Hi, I'm <u>Pranaya</u>!</p>
-                        <p>I am a <u>Front-End Developer</u> that specializes in React Framework.</p>
+                        <HeroTextTitle>Hi, I'm <u>Pranaya</u>!</HeroTextTitle>
+                        <p>I am a <b>Front-End Developer</b> and I specialize in <b style={{color: '#7bdff2'}}>React Framework.</b></p>   
                         
-                        <p>I'm a developer that is keen on building and deploying sites for <u>independent media</u> and <u>start-ups</u></p>
+                        <p>I'm a developer that is keen on building and deploying sites for <b style={{color: '#e59500'}}>Independent Media</b> and <b style={{color: '#f25f5c'}}>Start-Ups</b></p>
                     </HeroText>
+                    </Fade>
                     </HeroTextWrapper>
                     </ContentWrapper>
                 </HeroWrapper>

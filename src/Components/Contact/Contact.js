@@ -1,13 +1,17 @@
 import React from 'react'
 import {ContactSection, ContactContainer, HeroWrapper, HeroImg,  ContactText, ImageWrapper, TextList, ListItem, EmailIcon, GithubIcon, LinkedIcon} from './ContactStyles'
 import image from '../Images/ContactImages/contact.svg'
-
+import Fade from 'react-reveal/Fade'
 
 
 const Contact = () => {
     return (
+        
         <ContactSection id='contact'>
+            <Fade delay={200}>
             <ContactContainer>
+                
+
                 <HeroWrapper>
 
                     <ImageWrapper>
@@ -17,6 +21,8 @@ const Contact = () => {
 
                 </HeroWrapper>
                 
+                
+
                 <ContactText>
                     <p>
                         For all business inquiries, contact me through the following information below:
@@ -46,10 +52,13 @@ const Contact = () => {
 
                     </TextList>
                 </ContactText>
+                
 
             </ContactContainer>
+        </Fade>
         </ContactSection>
     )
+                
 }
 
 export default Contact

@@ -69,20 +69,22 @@ export const HeroText = styled.div`
     
 `
 export const ContactText = styled.div`
-    padding:5vh 15px;
+    padding:3vh 15px;
     height:55vh;
     background-color:#364156;
     width:100%;
+    font-size:1.2rem;
 `
 
 export const TextList = styled.ul`
     width:100%;
+    padding-top:3vh;
 `
 
 export const ListItem = styled.li`
     padding:10px;
     list-style:none;
-    font-size:1.2rem;
+    font-size:1rem;
     
     display:flex;
     flex-direction:row;

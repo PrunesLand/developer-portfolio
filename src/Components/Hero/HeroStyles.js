@@ -30,7 +30,7 @@ export const HeroImage = styled.img`
     
     
     
-    
+    z-index:-10;
     width:36.5vh;
 
     @media screen and (min-width:720px){
@@ -53,18 +53,18 @@ export const ContentWrapper = styled.div`
 `
 
 export const HeroText = styled.div`
-    padding: 5px 15px ;
+    padding: 10px 15px ;
     background-color:#364156;
     display:block;
     justify-content: center;
     align-items: center;
     color: black;
-    font-size:19px;
+    font-size:1rem;
     text-align:left;
-    width:43vh;
+    width:50vh;
 
     p{
-        width:300px;
+        width:45vh;
         padding:5px;
     }
 
@@ -85,17 +85,29 @@ export const HeroTextWrapper = styled.div`
 `
 
 export const HeroWrapperTitle = styled.div`
-    font-size:2.5rem;
+    font-size:2rem;
     background-color:#364156;
-    
-    height:7.5vh;
-    padding:0 1vh;
+    width:45vh;
+    height:8vh;
+    padding:0.5vh 1vh;
     text-align:center;
-   
-    z-index:3;
-    
+    color:white;
+    z-index:99;
+    font-weight: bolder;
     @media screen and (min-width:720px){
-        transform:translate(-20%, 40px);
-        width:400px;
+        transform:translate(-5%, 40px);
+        width:75vh;
+        height:10vh;
+        font-size:3rem;
+    }
+`
+
+export const HeroTextTitle = styled.p`
+
+    font-weight:bold;
+
+    @media screen and (min-width:720px){
+        font-size:2rem;
+
     }
 `

@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { SkillData } from './SkillData';
 import { GridSection, GridContainer, GridButtonWrapper, GridHeroWrapper, GridHeroImg, GridText, GridItemContainer, GridMainWrapper,  Logo1, Logo2, Logo3, Logo4, Logo5, Logo6, Logo7, Logo8, GridHeader, GridHeadTitle, GridTextParent, GridTextTitle, GridTextContent, GridImgWrapper, GridTitleContainer} from "./SkillSectionStyles";
-
+import Fade from 'react-reveal/Fade'
 
 
 const SkillSection = () => {
@@ -19,9 +19,10 @@ const SkillSection = () => {
                     
                 <GridMainWrapper>
                 
-                
+
                 <GridButtonWrapper >
 
+                <Fade Left delay={400}>
                         <GridItemContainer >
 
                            <Logo1  onClick={() => setVal(0)}/>
@@ -34,13 +35,16 @@ const SkillSection = () => {
                            <Logo8  onClick={() => setVal(7)}/>
                         </GridItemContainer>
                       
+                </Fade>
                 </GridButtonWrapper>
                 
+
                  <GridHeroWrapper>
 
                      {SkillData.filter(idx => idx.id === val).map((item,index) => (  
-                             
-                    <GridTextParent key={index}>
+                         
+                         <GridTextParent key={index}>
+                        <Fade Right delay={550}>
                         <GridImgWrapper>
 
                         <GridTitleContainer>
@@ -61,9 +65,10 @@ const SkillSection = () => {
                             {item.text}
                             </GridTextContent>
                         </GridText>
+                         </Fade>
                     </GridTextParent>
                          
-                     ))}
+                         ))}
 
                 </GridHeroWrapper> 
         

@@ -10,15 +10,17 @@ export const ProjectsSection = styled.section`
 
 export const ProjectsWrapper = styled.div`
     color:white;
-    font-size:30px;
+    font-size:1.3rem;
     text-align:center;
     width:100%;
+    
     
 `
 
 export const ProjectsHeader = styled.h1`
    text-align:center;
    padding:15px;
+   font-size:3rem;
     
 `
 

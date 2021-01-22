@@ -25,6 +25,8 @@ const Home = () => {
              margin: 0;
             padding: 0;
             box-sizing: border-box;
+            color:white;
+            font-family: 'Roboto Slab', serif;
         }
     `
     
