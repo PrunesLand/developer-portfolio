@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../Images/photo-example.jpg'
+import heroImage from '../Images/developer_pic.png'
 import {HeroSection, HeroWrapper, HeroImage, HeroText, HeroWrapperTitle, ContentWrapper, HeroTextWrapper, HeroTextTitle} from './HeroStyles'
 import Fade from 'react-reveal/Fade';
 
