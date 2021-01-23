@@ -86,7 +86,7 @@ export const HeroTextWrapper = styled.div`
 `
 
 export const HeroWrapperTitle = styled.div`
-    font-size:1.9rem;
+    font-size:4.3vh;
     background-color:#364156;
     width:45vh;
     height:8vh;
@@ -96,12 +96,12 @@ export const HeroWrapperTitle = styled.div`
     z-index:99;
     font-weight: bolder;
     box-shadow: 5px 5px 8px black;
-
+    white-space:nowrap;
     @media screen and (min-width:720px){
         transform:translate(-5%, 40px);
         width:75vh;
         height:10vh;
-        font-size:3rem;
+        font-size:6vh;
     }
 `
 

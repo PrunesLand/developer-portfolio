@@ -1,8 +1,8 @@
 {
+  "homepage": "https://prandy.surge.sh/",
   "name": "developer-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://prunesland.github.io/developer-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",

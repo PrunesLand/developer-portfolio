@@ -31,7 +31,7 @@ export const NavSelection = styled.ul`
     list-style:none;
     display:none;
     
-    @media screen and (min-width:650px){
+    @media screen and (min-width:720px){
         display: ${({showTitle}) => (!showTitle? 'none' : 'inherit')};
     }
     
