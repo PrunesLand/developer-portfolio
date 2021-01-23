@@ -79,7 +79,7 @@ export const InfoItem = styled.div`
 `
 
 export const InfoHeadingTitle = styled.h1`
-    text-decoration:underline;
+    
     font-size:4.5vh;
 `
 

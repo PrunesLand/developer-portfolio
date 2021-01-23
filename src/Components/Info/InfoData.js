@@ -7,7 +7,7 @@ export const InfoData = [
         title: 'Start-up Kickstart',
         image: startup,
         alt: 'startup illustration',
-        text: 'Deploy E-commerce site/ Mobile application to kickstart your start up. '
+        text: 'Deploy E-commerce site to kickstart your start up. '
     },
 
     {

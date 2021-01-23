@@ -9,7 +9,7 @@ const Info = () => {
             <InfoSection id='services'>
                 <InfoHeading>
                     <InfoHeadingTitle>
-                        Offered Services
+                        Offered Services...
                     </InfoHeadingTitle>
                     
                 </InfoHeading>

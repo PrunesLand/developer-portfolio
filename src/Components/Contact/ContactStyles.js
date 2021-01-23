@@ -37,6 +37,7 @@ export const ImageWrapper = styled.div`
 
 export const HeroWrapper = styled.div`
     width:100%;
+    padding:10px;
     
 `
 
@@ -48,9 +49,9 @@ export const HeroImg = styled.img`
     padding:15px;
 
     @media screen and (min-width:720px){
-       max-width:600px;
-       max-height:500px;
-       left:5%;
+       max-width:700px;
+       max-height:600px;
+       
     }
    
 `
@@ -74,6 +75,10 @@ export const ContactText = styled.div`
     background-color:#364156;
     width:100%;
     font-size:1.2rem;
+    box-shadow: 5px 5px 8px black;
+    @media screen and (min-width:720px){
+        font-size:2rem;
+    }
 `
 
 export const TextList = styled.ul`

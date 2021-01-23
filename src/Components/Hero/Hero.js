@@ -30,9 +30,9 @@ const Hero = () => {
 
                     <HeroText>
                         <HeroTextTitle>Hi, I'm <u>Pranaya</u>!</HeroTextTitle>
-                        <p>I am a <b>Front-End Developer</b> and I specialize in <b style={{color: '#7bdff2'}}>React Framework.</b></p>   
+                        <p>I am a <b>Front-End Developer</b> and I specialize in <b style={{color: '#7bdff2'}}>React Framework</b>.</p>   
                         
-                        <p>I'm a developer that is keen on building and deploying sites for <b style={{color: '#e59500'}}>Independent Media</b> and <b style={{color: '#f25f5c'}}>Start-Ups</b></p>
+                        <p>I'm a developer that is keen on building and deploying sites for <b style={{color: '#e59500'}}>Independent Media</b> and <b style={{color: '#f25f5c'}}>Start-Ups</b>.</p>
                     </HeroText>
                     </Fade>
                     </HeroTextWrapper>

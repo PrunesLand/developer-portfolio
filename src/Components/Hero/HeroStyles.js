@@ -29,7 +29,7 @@ export const HeroNavWrapper = styled.div`
 export const HeroImage = styled.img`
     
     
-    
+    box-shadow:5px 5px 8px black;
     z-index:-10;
     width:36.5vh;
 
@@ -62,9 +62,10 @@ export const HeroText = styled.div`
     font-size:1rem;
     text-align:left;
     width:50vh;
+    box-shadow: 5px 5px 8px black;
 
     p{
-        width:45vh;
+        width:48vh;
         padding:5px;
     }
 
@@ -85,7 +86,7 @@ export const HeroTextWrapper = styled.div`
 `
 
 export const HeroWrapperTitle = styled.div`
-    font-size:2rem;
+    font-size:1.9rem;
     background-color:#364156;
     width:45vh;
     height:8vh;
@@ -94,6 +95,8 @@ export const HeroWrapperTitle = styled.div`
     color:white;
     z-index:99;
     font-weight: bolder;
+    box-shadow: 5px 5px 8px black;
+
     @media screen and (min-width:720px){
         transform:translate(-5%, 40px);
         width:75vh;
